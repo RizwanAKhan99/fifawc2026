@@ -195,43 +195,12 @@ a{color:var(--gold);text-decoration:none} button{cursor:pointer;font-family:inhe
   <div id="dmeta"><span class="mdot"></span><span id="mtext"></span></div>
   <div id="panel-live" class="panel"><div class="sh"><span>&#128308; Live Matches</span></div><div id="c-live" class="sw"><div class="sp"></div><div class="slbl">Loading...</div></div></div>
   <div id="panel-livewidget" class="panel">
-  <div class="sh"><span>&#127941; Live Scores</span></div>
+  <div class="sh"><span>&#128308; Live Scores</span></div>
   <div id="c-livewidget">
-    <div style="background:rgba(0,0,0,0.2);border:1px solid rgba(201,168,76,0.18);border-radius:12px;overflow:hidden;padding:4px">
-      <!-- SportBusy World Cup 2026 Live Scores Widget — dark theme, gold accent -->
-      <iframe
-        src="https://www.sportbusy.com/widget/embed/?type=livescores&sport=soccer&theme=dark&accentColor=%23C9A84C&borderColor=%23002366&bgColor=%23040F28&textColor=%23ffffff&width=100&height=600&lang=en&compact=0"
-        width="100%"
-        height="620"
-        frameborder="0"
-        scrolling="no"
-        loading="lazy"
-        style="border:none;border-radius:8px;display:block"
-        title="Live World Cup 2026 Scores"
-        allow="autoplay"
-      ></iframe>
-    </div>
-    <div style="margin-top:10px;font-size:11px;color:rgba(122,139,170,0.5);text-align:center">
-      Live scores powered by <a href="https://www.sportbusy.com" target="_blank" style="color:var(--gold)">SportBusy</a> · Updates every 30 seconds
-    </div>
-    <!-- Fallback: ScoreAxis Live Match Centre -->
-    <div style="margin-top:20px">
-      <div style="font-size:11px;color:rgba(122,139,170,0.4);margin-bottom:8px;text-transform:uppercase;letter-spacing:1px">Also try: ScoreAxis Live Match Centre</div>
-      <div style="background:rgba(0,0,0,0.2);border:1px solid rgba(201,168,76,0.18);border-radius:12px;overflow:hidden;padding:4px">
-        <iframe
-          src="https://www.scoreaxis.com/widget/live-matches/7?autoHeight=0&inst=a8f2b&removeBets=1&fontFamily=Segoe+UI&timezone=0&bg=040F28&text=ffffff&live=1&homeTeam=1&awayTeam=1&score=1&time=1&status=1"
-          width="100%"
-          height="500"
-          frameborder="0"
-          scrolling="no"
-          loading="lazy"
-          style="border:none;border-radius:8px;display:block"
-          title="ScoreAxis Live Scores"
-        ></iframe>
-      </div>
-      <div style="margin-top:6px;font-size:11px;color:rgba(122,139,170,0.5);text-align:center">
-        Powered by <a href="https://www.scoreaxis.com" target="_blank" style="color:var(--gold)">ScoreAxis</a>
-      </div>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:16px">Real-time live match data powered by ScoreAxis — scores, lineups, events and stats.</p>
+    <div id="widget-6iqimqebcw1y" class="scoreaxis-widget" style="width:100%;height:auto;font-size:15px;background-color:#040F28;color:#ffffff;border:1px solid rgba(201,168,76,0.25);border-radius:12px;overflow:hidden">
+      <script src="https://widgets.scoreaxis.com/api/football/live-match/66717b45759a56977004a930?widgetId=6iqimqebcw1y&lang=en&lineupsBlock=1&eventsBlock=1&statsBlock=1&links=1&font=inter&fontSize=15&rowDensity=100&widgetWidth=100%25&widgetHeight=auto&bodyColor=%23040F28&textColor=%23ffffff&linkColor=%23C9A84C&borderColor=%23002366&tabColor=%23002880" async></script>
+      <div class="widget-main-link" style="padding:6px 12px;font-weight:500;font-size:11px;color:rgba(122,139,170,0.5)">Live data by <a href="https://www.scoreaxis.com/" style="color:var(--gold)">ScoreAxis</a></div>
     </div>
   </div>
 </div>
