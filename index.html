@@ -182,7 +182,6 @@ a{color:var(--gold);text-decoration:none} button{cursor:pointer;font-family:inhe
 </div></div>
 <div id="tabs"><div id="tabin">
   <button class="tab" data-tab="live" onclick="sw('live')">&#128308; Live</button>
-  <button class="tab" data-tab="livewidget" onclick="sw('livewidget')">&#127941; Live Scores</button>
   <button class="tab active" data-tab="upcoming" onclick="sw('upcoming')">&#128197; Upcoming</button>
   <button class="tab" data-tab="results" onclick="sw('results')">&#128202; Results</button>
   <button class="tab" data-tab="standings" onclick="sw('standings')">&#127885; Groups</button>
@@ -194,17 +193,7 @@ a{color:var(--gold);text-decoration:none} button{cursor:pointer;font-family:inhe
 <div id="main">
   <div id="dmeta"><span class="mdot"></span><span id="mtext"></span></div>
   <div id="panel-live" class="panel"><div class="sh"><span>&#128308; Live Matches</span></div><div id="c-live" class="sw"><div class="sp"></div><div class="slbl">Loading...</div></div></div>
-  <div id="panel-livewidget" class="panel">
-  <div class="sh"><span>&#128308; Live Scores</span></div>
-  <div id="c-livewidget">
-    <p style="font-size:12px;color:var(--muted);margin-bottom:16px">Real-time live match data powered by ScoreAxis — scores, lineups, events and stats.</p>
-    <div id="widget-6iqimqebcw1y" class="scoreaxis-widget" style="width:100%;height:auto;font-size:15px;background-color:#040F28;color:#ffffff;border:1px solid rgba(201,168,76,0.25);border-radius:12px;overflow:hidden">
-      <script src="https://widgets.scoreaxis.com/api/football/live-match/66717b45759a56977004a930?widgetId=6iqimqebcw1y&lang=en&lineupsBlock=1&eventsBlock=1&statsBlock=1&links=1&font=inter&fontSize=15&rowDensity=100&widgetWidth=100%25&widgetHeight=auto&bodyColor=%23040F28&textColor=%23ffffff&linkColor=%23C9A84C&borderColor=%23002366&tabColor=%23002880" async></script>
-      <div class="widget-main-link" style="padding:6px 12px;font-weight:500;font-size:11px;color:rgba(122,139,170,0.5)">Live data by <a href="https://www.scoreaxis.com/" style="color:var(--gold)">ScoreAxis</a></div>
-    </div>
-  </div>
-</div>
-<div id="panel-upcoming" class="panel active"><div class="sh"><span>&#128197; Upcoming</span></div><div id="c-upcoming" class="sw"><div class="sp"></div><div class="slbl">Loading...</div></div></div>
+  <div id="panel-upcoming" class="panel active"><div class="sh"><span>&#128197; Upcoming</span></div><div id="c-upcoming" class="sw"><div class="sp"></div><div class="slbl">Loading...</div></div></div>
   <div id="panel-results" class="panel"><div class="sh"><span>&#128202; Results</span></div><div id="c-results" class="sw"><div class="sp"></div><div class="slbl">Loading...</div></div></div>
   <div id="panel-standings" class="panel"><div class="sh"><span>&#127885; Group Standings</span></div><div id="c-standings" class="sw"><div class="sp"></div><div class="slbl">Loading...</div></div></div>
   <div id="panel-bracket" class="panel"><div class="sh"><span>&#127919; Knockout Bracket</span></div><div id="c-bracket" class="sw"><div class="sp"></div><div class="slbl">Loading...</div></div></div>
