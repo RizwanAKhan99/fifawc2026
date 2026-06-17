@@ -10,10 +10,24 @@
 <style>
 :root{--navy:#001233;--navy2:#002366;--gold:#C9A84C;--gold2:#F0C857;--sky:#1474C4;--w:#fff;--muted:#7A8BAA;--live:#E8004D;--card:#040F28;--border:rgba(201,168,76,0.18);--r:12px;--bg:var(--navy);--bgc:var(--card);--txt:var(--w);}
 .light{
-  --bg:#1a2236;--bgc:#242f45;--txt:#d4dff0;
-  --border:rgba(100,140,200,0.2);--muted:#8a9bbf;
-  --navy:#1a2236;--navy2:#1e2d47;
+  --bg:#f5f7fa;--bgc:#ffffff;--txt:#1a2340;
+  --border:rgba(0,35,102,0.12);--muted:#6b7fa3;
+  --card:#ffffff;--navy:#1a2340;--navy2:#2a3a6b;
+  --gold:#b8922a;--gold2:#d4a83a;--live:#cc0033;
 }
+.light #hdr{background:linear-gradient(135deg,#1a2340,#2a3a6b 65%,#1a2340)}
+.light .mc{box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+.light .mc:hover{box-shadow:0 6px 20px rgba(0,0,0,0.14)}
+.light .gcard{box-shadow:0 2px 8px rgba(0,0,0,0.07)}
+.light .stbl th{background:rgba(0,35,102,0.04)}
+.light .stbl td{border-bottom-color:rgba(0,0,0,0.05)}
+.light .stbl tr:hover td{background:rgba(0,35,102,0.03)}
+.light #tabs{background:#1a2340}
+.light #sbr{background:rgba(0,35,102,0.04)}
+.light #prog{background:rgba(0,35,102,0.06)}
+.light #sinp{background:#fff;border-color:rgba(0,35,102,0.15);color:#1a2340}
+.light .tab{color:#8a9bbf}
+.light .tab.active{color:#b8922a;border-bottom-color:#b8922a}
 .midnight{
   --bg:#0d1117;--bgc:#161b22;--txt:#c9d1d9;
   --border:rgba(201,168,76,0.2);--muted:#8b949e;
@@ -404,7 +418,7 @@ function startCDs(ms){
   });
 }
 
-var themeLabels={"dark":"☀ Slate","light":"🌲 Forest","midnight":"⬜ Charcoal","forest":"◑ Midnight","charcoal":"🌙 Dark"};
+var themeLabels={"dark":"☀ Light","light":"◑ Midnight","midnight":"🌲 Forest","forest":"⬜ Charcoal","charcoal":"🌙 Dark"};
 function applyTheme(){
   var t=localStorage.getItem("wc26_theme")||"dark";
   document.body.className="";
